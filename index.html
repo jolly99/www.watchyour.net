@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="WAM by WatchYourNet LTD is a multi-vendor wireless assurance and monitoring platform for enterprise Wi-Fi environments." />
+  <meta name="theme-color" content="#08111f" />
+  <title>WAM — Wireless Assurance Monitor | WatchYourNet LTD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="WatchYourNet home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-text"><strong>WatchYourNet</strong><small>LTD</small></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#platform">Platform</a>
+        <a href="#features">Features</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#contact">Contact</a>
+        <a class="button button-small" href="#contact">Request a demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> Enterprise wireless assurance</div>
+          <h1>See your wireless network.<br><span>Understand what matters.</span></h1>
+          <p class="hero-lead">WAM gives network teams a single operational view of controllers, access points, radios, clients, RF conditions, history, and health across multi-vendor Wi-Fi environments.</p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Request a demo</a>
+            <a class="button button-secondary" href="#platform">Explore WAM</a>
+          </div>
+          <div class="hero-meta">
+            <span>On-premises</span><span>Multi-vendor</span><span>API-driven</span><span>Built for scale</span>
+          </div>
+        </div>
+
+        <div class="hero-console" role="img" aria-label="Illustration of the WAM network assurance dashboard">
+          <div class="console-top"><span></span><span></span><span></span><b>WAM / Overview</b></div>
+          <div class="console-body">
+            <div class="metric-card"><small>Access Points</small><strong>5,402</strong><em>5,386 online</em></div>
+            <div class="metric-card"><small>Clients</small><strong>12,847</strong><em>live associations</em></div>
+            <div class="metric-card"><small>Controllers</small><strong>10</strong><em>multi-vendor</em></div>
+            <div class="metric-card warn"><small>Needs Attention</small><strong>27</strong><em>prioritized</em></div>
+            <div class="chart-card">
+              <div class="chart-title"><span>RF utilization</span><small>Last 60 minutes</small></div>
+              <svg viewBox="0 0 620 170" preserveAspectRatio="none" aria-hidden="true">
+                <defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3de1c6" stop-opacity=".34"/><stop offset="100%" stop-color="#3de1c6" stop-opacity="0"/></linearGradient></defs>
+                <path class="chart-gridline" d="M0 35H620M0 85H620M0 135H620"/>
+                <path class="chart-fill" d="M0 138 C50 118 72 132 110 101 S170 73 205 91 S261 126 302 80 S378 42 420 72 S488 118 530 76 S585 64 620 38 L620 170 L0 170 Z"/>
+                <path class="chart-line" d="M0 138 C50 118 72 132 110 101 S170 73 205 91 S261 126 302 80 S378 42 420 72 S488 118 530 76 S585 64 620 38"/>
+              </svg>
+            </div>
+            <div class="mini-list">
+              <div><i class="good"></i><span>WLC9800-2</span><b>Healthy</b></div>
+              <div><i class="good"></i><span>ArubaMM-VA</span><b>Healthy</b></div>
+              <div><i class="warn-dot"></i><span>AP-4F-East</span><b>High utilization</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span>Designed for enterprise WLAN operations</span>
+        <div class="vendor-tags"><b>Cisco Catalyst 9800</b><b>ArubaOS 8</b><b>RESTCONF</b><b>Streaming telemetry</b><b>RF assurance</b></div>
+      </div>
+    </section>
+
+    <section id="platform" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">One operational plane</div>
+          <h2>Wireless assurance without the noise.</h2>
+          <p>WAM normalizes controller, AP, client, and RF data into one consistent operating model, so engineers spend less time moving between tools and more time solving actual network problems.</p>
+        </div>
+        <div class="feature-grid three">
+          <article class="feature-card"><div class="icon">01</div><h3>Multi-vendor visibility</h3><p>Monitor Cisco Catalyst 9800 and ArubaOS 8 environments from the same interface with normalized controller, AP, radio, and client data.</p></article>
+          <article class="feature-card"><div class="icon">02</div><h3>Client-centric troubleshooting</h3><p>Follow a client from association to AP, radio, VLAN, PHY, signal, roaming history, and connection details without losing context.</p></article>
+          <article class="feature-card"><div class="icon">03</div><h3>RF insight that is actionable</h3><p>Track noise floor, utilization, interference, channel width, EIRP, rates, retries, SNR, and radio pressure using real controller telemetry.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-dark">
+      <div class="container">
+        <div class="split-heading">
+          <div><div class="eyebrow">Built for network engineers</div><h2>From fleet overview to a single client.</h2></div>
+          <p>WAM keeps the operational hierarchy intact: controller → managed device → AP → radio → client. Cross-navigation and historical context make troubleshooting faster.</p>
+        </div>
+        <div class="feature-grid four">
+          <article class="feature-card dark"><h3>Controller assurance</h3><p>Inventory, software, availability, collection state, managed-device hierarchy, AP counts, and client counts.</p></article>
+          <article class="feature-card dark"><h3>AP operations</h3><p>Operational/admin state, model, serial, wired MAC, software, uptime, group/site, clients, radio state, and history.</p></article>
+          <article class="feature-card dark"><h3>Client intelligence</h3><p>SSID, BSSID, PHY, channel, VLAN, SNR, RSSI, rates, retries, security, association state, history, and roaming.</p></article>
+          <article class="feature-card dark"><h3>RF assurance</h3><p>Noise, interference, utilization, channel, width, EIRP, client load, airtime, and radio health at a glance.</p></article>
+          <article class="feature-card dark"><h3>Maps & sites</h3><p>Organize tenants, sites, buildings, floors, floorplans, and AP placement without forcing a proprietary hierarchy.</p></article>
+          <article class="feature-card dark"><h3>History & exports</h3><p>Operational history, session context, CSV exports, and full-detail PDF exports for analysis and reporting.</p></article>
+          <article class="feature-card dark"><h3>Administration</h3><p>Web-based configuration, backups, restore, audit history, credentials, and controller lifecycle management.</p></article>
+          <article class="feature-card dark"><h3>Private deployment</h3><p>Run WAM on your infrastructure. Your controller credentials and operational WLAN data stay under your control.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section">
+      <div class="container architecture-grid">
+        <div>
+          <div class="eyebrow">Architecture</div>
+          <h2>Designed for real production WLANs.</h2>
+          <p>WAM uses modern APIs and telemetry rather than screen scraping. Collection is vendor-specific; presentation and assurance are normalized.</p>
+          <ul class="check-list">
+            <li><strong>Cisco Catalyst 9800:</strong> streaming telemetry with RESTCONF reconciliation and fallback.</li>
+            <li><strong>ArubaOS 8:</strong> Mobility Conductor discovery plus direct Managed Device operational collection.</li>
+            <li><strong>PostgreSQL / TimescaleDB:</strong> operational state and historical metrics.</li>
+            <li><strong>FastAPI + React:</strong> responsive API-driven application architecture.</li>
+            <li><strong>Docker Compose:</strong> predictable installation, upgrades, and service isolation.</li>
+          </ul>
+        </div>
+        <div class="architecture-diagram" aria-label="WAM architecture diagram">
+          <div class="node node-top">WAM</div>
+          <div class="connector vertical"></div>
+          <div class="node-row">
+            <div class="node">Cisco 9800</div>
+            <div class="node">Aruba Conductor</div>
+          </div>
+          <div class="connector-row"><span></span><span></span></div>
+          <div class="node-row small">
+            <div class="node sub">APs / Clients / RF</div>
+            <div class="node sub">Managed Devices</div>
+          </div>
+          <div class="diagram-caption">Vendor-specific collection. One normalized assurance model.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outcomes">
+      <div class="container outcomes-grid">
+        <div class="outcome"><strong>6,000+</strong><span>AP design target</span></div>
+        <div class="outcome"><strong>10+</strong><span>controller scale target</span></div>
+        <div class="outcome"><strong>24×7</strong><span>continuous collection</span></div>
+        <div class="outcome"><strong>1</strong><span>operational view</span></div>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="container why-grid">
+        <div class="why-copy"><div class="eyebrow">Why WAM</div><h2>Purpose-built for the gap between monitoring and assurance.</h2></div>
+        <div class="why-list">
+          <article><h3>Keep the useful detail</h3><p>WAM preserves the information engineers actually need: RF state, association context, controller ownership, history, and raw diagnostics when necessary.</p></article>
+          <article><h3>Reduce vendor lock-in</h3><p>A common data model means operational workflows do not have to change when the WLAN contains more than one vendor.</p></article>
+          <article><h3>Operate it your way</h3><p>Deploy on Linux, retain local control of data, integrate through APIs, and evolve the platform around your operational requirements.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta-section">
+      <div class="container cta-card">
+        <div><div class="eyebrow">WatchYourNet LTD</div><h2>Make wireless operations easier to see.</h2><p>Contact us to discuss WAM, multi-vendor WLAN assurance, deployment requirements, or an evaluation environment.</p></div>
+        <div class="cta-actions"><a class="button" href="mailto:info@watchyour.net?subject=WAM%20Demo%20Request">Request a demo</a><a class="text-link" href="mailto:info@watchyour.net">info@watchyour.net →</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand footer-brand"><span class="brand-mark"><span></span><span></span><span></span></span><span class="brand-text"><strong>WatchYourNet</strong><small>LTD</small></span></div>
+      <div class="footer-copy">WAM — Wireless Assurance Monitor</div>
+      <div class="footer-copy">© <span id="year"></span> WatchYourNet LTD · watchyour.net</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
